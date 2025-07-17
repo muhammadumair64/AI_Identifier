@@ -73,7 +73,7 @@ class ScanningViewModel @Inject constructor() : ViewModel() {
     private suspend fun getResponseForImageAndPrompt(image: Bitmap, prompt: String): String {
         val generativeModel = GenerativeModel(
             modelName = "gemini-2.0-flash",
-            apiKey = "AIzaSyD9eoo_ZWQQBwrrIU-puQ4xeLHvenlIG_4",
+            apiKey = "AIzaSyDvy0gERhUj83LhC6EQZun3UCTno3fCjjY",
         )
         return withContext(Dispatchers.IO) {
             try {
