@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <item
+            android:id="@+id/view_menu"
+            android:icon="@drawable/maximize_screen_menu"
+            android:title="View"
+            android:checked="true"
+            android:color="@color/ad_bg_color"/>
+
+        <item
+            android:id="@+id/share_menu"
+            android:icon="@drawable/share_menu"
+            android:title="Share"
+            android:color="@color/ad_bg_color"/>
+
+        <item
+            android:id="@+id/delete_menu"
+            android:icon="@drawable/delete_menu"
+            android:title="Delete"
+            android:color="@color/ad_bg_color"/>
+
+</menu>

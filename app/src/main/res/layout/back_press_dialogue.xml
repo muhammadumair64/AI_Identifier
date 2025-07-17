@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:padding="@dimen/_15sdp"
+    android:backgroundTint="@color/ad_bg_color"
+    android:background="@drawable/curved_bg">
+
+
+    <FrameLayout
+        android:id="@+id/ad_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/shimmer_effect_color">
+
+            <include
+                layout="@layout/admob_native_media_small_layout_new"
+                android:visibility="invisible" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Exit!"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/dark_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ad_frame" />
+
+
+    <TextView
+        android:id="@+id/description_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Are you sure you want to exit?"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp"
+        android:fontFamily="@font/nunito_medium"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_tv" />
+
+
+    <TextView
+        android:id="@+id/no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke_theme_bg"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp"
+        android:text="NO"
+        android:textColor="@color/primary"
+        app:layout_constraintEnd_toStartOf="@+id/yes_tv"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_tv" />
+
+    <TextView
+        android:id="@+id/yes_tv"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yellow_btn_bg"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:paddingStart="45dp"
+        android:text="YES"
+        android:paddingEnd="45dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/no_tv"
+        app:layout_constraintTop_toBottomOf="@+id/description_tv" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

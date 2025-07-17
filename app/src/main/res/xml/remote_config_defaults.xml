@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>ads_enable</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>open_ad</key>
+    <value>false</value>
+  </entry>
+</defaults>

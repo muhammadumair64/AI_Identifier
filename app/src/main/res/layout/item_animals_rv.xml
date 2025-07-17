@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_130sdp"
+    android:layout_height="@dimen/_135sdp"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_cards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_7sdp"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_7sdp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_7sdp"
+        android:background="@drawable/item_animals_bg">
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dogs"
+            android:textSize="@dimen/_13sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/dark_text"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/identify_nyour_ndog_s_nbreed"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/nunito_medium"
+            android:textColor="@color/dark_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_name"
+            />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/animal_card_arrow"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/animal_img"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="match_parent"
+        android:src="@drawable/dog_img_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

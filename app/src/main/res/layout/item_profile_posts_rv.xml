@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_margin="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        >
+
+        <ImageView
+            android:id="@+id/post_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/temp_dog"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+</layout>

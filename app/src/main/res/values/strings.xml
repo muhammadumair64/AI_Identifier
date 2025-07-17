@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Object Identifier</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="necessary_permission">Necessary Permission</string>
+    <string name="necessary_permission_dis">Please allow the required permissions in the app settings.</string>
+    <string name="temp_tt">Medium-length, Double coat, Colors include black and tan, sable, and solid black.</string>
+    <string name="temp_detail">The German Shepherd is a large and versatile dog breed known for its intelligence, loyalty, and strong work ethic. With a muscular build, erect ears, and a thick double coat, they are as striking in appearance as they are in character. These dogs are highly trainable, making them ideal for roles in law enforcement, search and rescue, and as service animals. Despite their working abilities, they are also affectionate and protective family pets.</string>
+
+    <string name="no_email_client_found">No email client found</string>
+    <string name="do_you_like_the_app">Do you like the app?</string>
+    <string name="rate_your_experience">Rate your experience</string>
+    <string name="great_ui">Great UI</string>
+    <string name="effective">Effective</string>
+    <string name="helpful">Helpful</string>
+    <string name="convenient">Convenient</string>
+    <string name="engaging">Engaging</string>
+    <string name="submit">Submit</string>
+    <string name="claim_now">Claim Now</string>
+    <string name="are_you_sure_you_want_to_skip">Are You Sure you want to skip?</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="inapp_success_meaage">Subscription activated, Enjoy! Please Restart the App</string>
+    <string name="reward_ad_not">Reward ad is not available.Please try again.</string>
+    <string name="unlock">Unlock</string>
+    <string name="watch_an_ad">Watch an AD</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="cancel_subscription_url">https://support.google.com/googleplay/answer/7018481</string>
+    <string name="scan_identify">Scan &amp; Identify</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="instantly">Instantly</string>
+    <string name="tap_to_scan_anything">Tap to Scan Live</string>
+    <string name="quickly_accurately_nscan_to_identify_nany_object_nin_sec"><![CDATA[Live scanning to\nidentify any\nobject in\nreal-time]]></string>
+    <string name="scan_nnow">Scan\nNow</string>
+    <string name="dogs">Dogs</string>
+    <string name="identify_nyour_ndog_s_nbreed">Identify\nYour\nDog\'s\nBreed</string>
+    <string name="scan_animals">Scan Animals</string>
+    <string name="view_all">View All</string>
+    <string name="scan_plant_objects"><![CDATA[Scan Plant & Objects]]></string>
+    <string name="other_tools">Other Tools</string>
+    <string name="all_animals">All Animals</string>
+    <string name="all_objects">All Objects</string>
+    <string name="ready_to">Ready to</string>
+    <string name="identify">Identify!</string>
+    <string name="here_s_your_chosen_creature_nlet_s_find_out_what_it_is">Here\'s your chosen creature/object.\nLet’s find out what it is!</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="object_name">Object Name</string>
+    <string name="no_data_found_for_this_object">No Data Found! for </string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="terms_of_services"><u>Terms of Services</u></string>
+    <string name="how_to_cancel"><u>how to cancel</u></string>
+    <string name="scan_left">scan left</string>
+    <string name="refresh_scan">Refresh Scan</string>
+    <string name="you_ve_used_all_your_nfree_scans">You’ve Used All Your\nFree Scans!</string>
+    <string name="you_re_out_of_free_scans_for_today">You’re out of free scans for today</string>
+    <string name="scan_with_pro_version">Scan with Pro version</string>
+    <string name="upgrade_to_premium">Upgrade to premium</string>
+    <string name="scan_a_diffrent_object"><u>Scan a Diffrent Object</u></string>
+    <string name="pro">PRO</string>
+    <string name="live_nscan">Live\nScan</string>
+
+    <string name="scan_instructions">• Point the camera at the object and hold still.\n• Wait for the live scan to detect and show results.\n• No result? Wait for auto re-scan or tap "Refresh Scan".\n• Not satisfied? Try scanning again.\n• Tap the result card for full details.
+</string>
+    <string name="start_now">Start Now</string>
+    <string name="weekly_plan">Weekly Plan</string>
+    <string name="free_trail">Free Trail</string>
+
+</resources>

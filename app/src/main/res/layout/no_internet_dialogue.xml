@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/secondary"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lottieAnimationView_10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/no_internet"
+            app:lottie_repeatMode="restart" />
+
+        <TextView
+            android:layout_below="@id/lottieAnimationView_10"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="No Internet"
+            android:textColor="@color/dark_text"
+            android:textSize="17sp"
+            android:textStyle="bold"
+ />
+
+        <TextView
+            android:layout_below="@id/title"
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Check your internet connetion and try again"
+            android:textColor="@color/dark_text"
+            android:textSize="15sp"
+ />
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@id/textView14"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Cancel"
+            android:textColor="@color/dark_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+        />
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/textView14"
+            android:id="@+id/Retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:layout_marginEnd="@dimen/_25sdp"
+            app:cardCornerRadius="25dp"
+    >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="35dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="35dp"
+                android:paddingBottom="10dp"
+                android:text="Retry"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

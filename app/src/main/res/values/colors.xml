@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#F2968F</color>
+    <color name="secondary">#FCFCFE</color>
+    <color name="primary_light">#F39F98</color>
+    <color name="primary_extra_light">#FFEDEB</color>
+    <color name="dark_text">#333333</color>
+    <color name="light_text">#898A8D</color>
+    <color name="yellow">#FFD43A</color>
+
+    <color name="light_purple">#C7D6FF</color>
+    <color name="light_coral">#FFE3D3</color>
+    <color name="light_green">#D5E5C8</color>
+    <color name="light_orange">#FFE5B5</color>
+    <color name="light_red">#FFCFCB</color>
+    <color name="red">#F60D00</color>
+    <color name="red_light">#FF9A9B</color>
+    <color name="red_dark">#D10809</color>
+    <color name="light_blue">#B1DFEF</color>
+    <color name="light_dim_orange">#FFE5B5</color>
+
+    <color name="dark_yellow">#FFB319</color>
+    <color name="dark_orange">#FD7A01</color>
+    <color name="pro_orange_s">#FFA800</color>
+    <color name="pro_orange_e">#FF4D00</color>
+    <color name="gray_color">#BBBBBB</color>
+    <color name="dark_gray_color">#6D6D6D</color>
+    <color name="light_stroke">#F5F5F5</color>
+    <color name="shimmer_effect_color">#BFBDBD</color>
+
+    <color name="ad_border">#E8E8E8</color>
+    <color name="ad_bg">#EDE5E5</color>
+    <color name="ad_btn_bg_color">#108d0d</color>
+    <color name="ad_bg_color">#F4F2F2</color>
+    <color name="colorThemeBlue">#4A78FE</color>
+
+    <color name="trail_card_start">#F96D7F</color>
+    <color name="trail_card_end">#626EFF</color>
+    <color name="p_gradient_s">#EC7303</color>
+    <color name="p_gradient_c">#F58C0B</color>
+    <color name="p_gradient_e">#FFA915</color>
+    <color name="yellow_clr">#FDFFB5</color>
+
+    <color name="dog_card_bg">#FFE0CC</color>
+    <color name="cat_card_bg">#D0FDD6</color>
+    <color name="insects_card_bg">#D7F9FF</color>
+    <color name="bird_card_bg">#C7D6FF</color>
+    <color name="primary_bg_clr">#F67184</color>
+
+    <color name="trail_card_startn">#FD9451</color>
+    <color name="trail_card_endn">#BD29FB</color>
+
+</resources>
